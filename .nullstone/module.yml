@@ -1,0 +1,11 @@
+org_name: nullstone
+name: test-ec2
+friendly_name: Test EC2 App Server
+description: Creates an EC2 Instance as an app server.
+category: app/server
+type: server/aws-ec2
+appCategories: []
+layer: service
+is_public: false
+provider_types:
+    - aws
